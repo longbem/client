@@ -1,0 +1,27 @@
+// @import "../../../styles/settings.scss";
+
+.labelTopProduct {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 45px;
+  color: #545454;
+}
+
+.line {
+  width: 200px;
+  height: 2px;
+  margin: auto;
+  background-color: #545454;
+}
+
+.homePage {
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  .mapContainer {
+    width: 100%;
+    height: 70vh;
+    margin: 48px 0;
+  }
+}

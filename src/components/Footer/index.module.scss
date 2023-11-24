@@ -1,0 +1,72 @@
+// @import "../../../../styles/settings.scss";
+.footer {
+  background-color: #172026;
+}
+.boxFooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  padding-left: 16%;
+  padding-right: 16%;
+  background-color: #172026;
+  .columFooter {
+    flex: 1;
+  }
+  .labelFooter {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #ffffff;
+  }
+  .boxSocial {
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+    margin-top: 16px;
+    align-items: center;
+  }
+}
+.boxItemFooter {
+  display: flex;
+  //   align-items: center;
+  flex: 1;
+  margin-bottom: 10px;
+  .value {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  .icon {
+    margin-top: 3px;
+    margin-right: 5px;
+  }
+}
+.boxCopyFooter {
+  border-top-color: #333;
+  border-top-width: 0.5px;
+  background-color: #172026;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  .copy {
+    text-align: center;
+    color: #a2a2a2;
+    font-size: 10px;
+  }
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (min-width: 400px) {
+  .labelFooter {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  .labelFooter {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+}

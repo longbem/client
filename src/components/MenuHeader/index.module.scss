@@ -1,0 +1,49 @@
+// @import "../../../../styles/settings.scss";
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  .logo {
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 20px;
+  }
+  .linkList {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+.labelMenu {
+  font-weight: 700;
+}
+
+.progress {
+  width: 90%;
+  margin: auto;
+  padding: 0px;
+}
+
+@media screen and (max-width: 414px) {
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    .logo {
+      font-size: 18px;
+      font-weight: 700;
+      margin-left: 20px;
+    }
+    .linkList {
+      width: 10%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+    }
+  }
+}
