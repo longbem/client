@@ -1,4 +1,4 @@
-export const formatPrice = (value: string | number, decimalCount?: number) => {
+export const formatPrice = (value?: string | number, decimalCount?: number) => {
   const decimalLength = decimalCount || 6;
   if (!value) {
     return "0";
