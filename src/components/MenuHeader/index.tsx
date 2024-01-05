@@ -100,7 +100,7 @@ const MenuHeader = () => {
             }}
             defaultSelectedKeys={menuOnActive()}
             inlineIndent={20}
-            overflowedIndicator={<MenuOutlined />}
+            overflowedIndicator={<MenuOutlined rev={undefined} />}
             mode="horizontal"
             items={items}
           />

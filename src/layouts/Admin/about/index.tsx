@@ -59,7 +59,7 @@ const AdminAbout = () => {
         <div className={styles.boxLabel}>
           <h1 className={styles.labelInfo}>Thông tin liên hệ</h1>
           <Button className={styles.btnEdit} onClick={onClickEdit}>
-            <EditTwoTone onClick={onClickEdit} size={50} />
+            <EditTwoTone onClick={onClickEdit} size={50} rev={undefined} />
           </Button>
         </div>
         <Form

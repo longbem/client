@@ -5,7 +5,7 @@ import GoogleMapReact from "google-map-react";
 import { useRequest } from "ahooks";
 import { requestGetAbout } from "@/services/admin/about";
 
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+const AnyReactComponent = ({ text }: { text?: string }) => <div>{text}</div>;
 
 const About = () => {
   const screenSize = useMemo(() => {

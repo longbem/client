@@ -1,6 +1,6 @@
 import axios from "axios";
 import { getCookie } from "cookies-next";
-console.log("process.env", process.env);
+// console.log("process.env", process.env);
 const instance = axios.create({
   baseURL: "http://localhost:4000/api",
   timeout: 1000,
