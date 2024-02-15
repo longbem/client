@@ -24,4 +24,57 @@
     height: 70vh;
     margin: 48px 0;
   }
+
+  .customPanelStyle  {
+    background: '#f7f7f7';
+    border-radius: 4px;
+    margin-bottom: 24px;
+    border: 0px;
+    overflow: 'hidden';
+  }
+}
+
+.homeAboutGara {
+  background-image: url("https://www.reutersagency.com/wp-content/uploads/2022/06/Auto-Tech-Stock-Image.jpg");
+  background-color: #cccccc;
+  width: 100%;
+  height: 500px;
+  object-fit: fill;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+
+  .labelAboutGara {
+    font-size: 36px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 700;
+  }
+
+  .boxStringAboutGara {
+    width: 45%;
+    margin-top: 3%;
+    margin-left: 5%;
+    
+
+    .stringAboutGara{
+      font-size: 20px;
+      color: #ffffff;
+      line-height: 35px;
+    }
+
+    .btnSeeAll {
+      background-color: #4283ff;
+      font-size: 14px;
+      line-height: 1.5714285714285714;
+      height: 32px;
+      padding: 4px 15px;
+      border-radius: 27px;
+      border-width: 0px;
+      margin-top: 20px;
+      color: #ffffff
+    }
+  }
+  
 }
