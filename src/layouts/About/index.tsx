@@ -56,7 +56,7 @@ const About = () => {
           }}
           defaultZoom={11}
         >
-          <AnyReactComponent text="My Marker" />
+          {/* <AnyReactComponent text="text" /> */}
         </GoogleMapReact>
       </div>
     </div>

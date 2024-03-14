@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Typography } from "antd";
 import styles from "./index.module.scss";
 import { FC, ReactNode } from "react";

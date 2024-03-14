@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styles from "./index.module.scss";
-import { Button, Form, Input, Row, Spin, notification } from "antd";
+import { Button, Form, Input, Row, notification } from "antd";
 import { EditTwoTone } from "@ant-design/icons";
 import { useRequest } from "ahooks";
 import { requestGetAbout, requestUpdateAbout } from "@/services/admin/about";
