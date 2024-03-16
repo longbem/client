@@ -10,7 +10,7 @@
 
 # next.js
 #comment when build product
-# /.next*  
+/.next*  
 
 /.next/cache*
 /out/
