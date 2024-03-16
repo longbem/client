@@ -9,6 +9,9 @@
 /coverage
 
 # next.js
+#comment when build product
+# /.next*  
+
 /.next/cache*
 /out/
 
