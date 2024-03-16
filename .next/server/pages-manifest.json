@@ -1,0 +1,16 @@
+{
+  "/_app": "pages/_app.js",
+  "/_document": "pages/_document.js",
+  "/admin/about": "pages/admin/about.html",
+  "/admin/dashboard": "pages/admin/dashboard.html",
+  "/admin/warehouse-management": "pages/admin/warehouse-management.html",
+  "/about": "pages/about.html",
+  "/api/hello": "pages/api/hello.js",
+  "/admin": "pages/admin.html",
+  "/_error": "pages/_error.js",
+  "/api/request": "pages/api/request.js",
+  "/car-sale": "pages/car-sale.html",
+  "/": "pages/index.html",
+  "/services": "pages/services.html",
+  "/404": "pages/404.html"
+}
